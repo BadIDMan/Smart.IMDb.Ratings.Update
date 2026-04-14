@@ -7,7 +7,7 @@ While the original add-on provides a very minimal implementation (for example, l
 Key Features
 ============
 1. Automatic rating updates after Kodi library scans (new items only)
-2. Context menu updates with selectable source:
+2. Context menu updates with selectable source:</br>
 a) IMDbAPI.dev</br>
 b) Local IMDb dataset (official IMDb non-commercial datasets)</br>
 c) IMDb HTML (currently blocked by WAF protection so API calls fails)</br>
