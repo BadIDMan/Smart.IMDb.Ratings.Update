@@ -7,7 +7,7 @@ While the original add-on provides a very minimal implementation (for example, l
 Key Features
 ============
 1. Automatic rating updates after Kodi library scans (new items only)
-2. Context menu updates with selectable source:</br>
+2. Context menu updates on TV show, Episode, Movie and Movie Collections with selectable source:</br>
 a) IMDbAPI.dev</br>
 b) Local IMDb dataset (official IMDb non-commercial datasets)</br>
 c) IMDb HTML (currently blocked by WAF protection so API calls fails)</br>
@@ -31,7 +31,9 @@ Important Notes
 ===============
 This add-on is provided as-is.</br>
 It will not be maintained, except in cases where external changes (e.g. API changes, Kodi changes) completely break its functionality.</br>
-The add-on does not support IMDb Top250 updates for movies (this feature was intentionally omitted).</br>
+The add-on also support IMDb Top250 updates for movies.</br>
+To avoid accessing and relying on IMDb Top 250 datasets publicly redistributed by third parties - which may violate IMDb terms of use or redistribution rules - the add-on does not use any externally hosted Top250 sources.</br>
+Instead, each user can locally generate their own Top250.txt file directly from the publicly accessible IMDb Top 250 chart at https://www.imdb.com/chart/top/</br>
 The author takes no responsibility for any damage to the Kodi database -> it is strongly recommended to create a backup before using this add-on.</br>
 
 Credits
