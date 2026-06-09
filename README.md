@@ -7,18 +7,20 @@ While the original add-on provides a very minimal implementation (for example, l
 Key Features
 ============
 1. Automatic rating updates after Kodi library scans (new items only)
-2. Context menu updates on TV show, Episode, Movie and Movie Collections with selectable source:</br>
-a) IMDbAPI.dev</br>
-b) Local IMDb dataset (official IMDb non-commercial datasets)</br>
-c) IMDb HTML (currently blocked by WAF protection so API calls fails)</br>
-3. Full support for Movies, TV Shows, and Episodes
-4. Intelligent multi-stage fallback system: IMDb -> TMDB -> TVDB -> ID recovery
-5. Automatic recovery and writing of missing IDs back to Kodi
-6. Episode rating resolution even when episode-level IMDb IDs are missing
-7. Local dataset support for fast, offline rating updates
-8. Built-in rate limiting for API usage
-9. Detailed logging with in-app log viewer (last 20 lines)
-10. Protection against missing dataset and edge-case failures
+2. Optional 'Monthly Full Refresh' for ratings updates on all Kodi library items
+3. Context menu updates with selectable source:
+a) IMDbAPI.dev
+b) Local IMDb dataset (official IMDb non-commercial datasets)
+c) IMDb HTML (currently blocked by WAF protection so API calls fails)
+4. Full support for Movies, TV Shows, Seasons and Episodes
+5. Intelligent multi-stage fallback system: IMDb -> TMDB -> TVDB -> ID recovery
+6. Automatic recovery and writing of missing IDs back to Kodi
+7. Episode rating resolution even when episode-level IMDb IDs are missing
+8. Local dataset support for fast, offline rating updates
+9. Built-in rate limiting for API usage
+10. Daily logging with automatic log rotation and persistent logging across Kodi/add-on restarts
+11. Detailed logging with in-app log viewer (last 20 lines)
+12. Protection against missing dataset and edge-case failures
 
 Philosophy
 ==========
