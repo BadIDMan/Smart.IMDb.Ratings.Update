@@ -8,10 +8,10 @@ Key Features
 ============
 1. Automatic rating updates after Kodi library scans (new items only)
 2. Optional 'Monthly Full Refresh' for ratings updates on all Kodi library items
-3. Context menu updates with selectable source:
-a) IMDbAPI.dev
-b) Local IMDb dataset (official IMDb non-commercial datasets)
-c) IMDb HTML (currently blocked by WAF protection so API calls fails)
+3. Context menu updates with selectable source:</br>
+a) IMDbAPI.dev</br>
+b) Local IMDb dataset (official IMDb non-commercial datasets)</br>
+c) IMDb HTML (currently blocked by WAF protection so API calls fails)</br>
 4. Full support for Movies, TV Shows, Seasons and Episodes
 5. Intelligent multi-stage fallback system: IMDb -> TMDB -> TVDB -> ID recovery
 6. Automatic recovery and writing of missing IDs back to Kodi
